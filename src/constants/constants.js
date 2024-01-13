@@ -40,7 +40,8 @@ import {
     panda,
     port3d,
     code,
-    horizons
+    horizons,
+    hanyang
   } from "../assets";
   
   export const navLinks = [
@@ -214,6 +215,17 @@ import {
         "Event Coordinator of Latihan Kepemimpinan Manajemen Buddhis Aktivis",
         "Project Manager for Latihan Kepemimpinan Manajemen Buddhis Calon Pengurus",
         "Head of Design and Documentation for Malam Apresiasi"
+      ],
+    },
+    {
+      title: "Student Exchange",
+      company_name: "Hanyang University",
+      icon: hanyang,
+      iconBg: "#E6DEDD",
+      date: "2024 - 2024",
+      points: [
+        "Bina Nusantara's representative for the student exchange program, selected from 127 out of 254 participants",
+        "Bina Nusantara's only representative to Hanyang University Seoul Campus, selected from 1 of 18 participants",
       ],
     },
   ];

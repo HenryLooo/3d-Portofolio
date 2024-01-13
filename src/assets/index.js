@@ -40,6 +40,7 @@ import sman from "./company/sman.png"
 import kmbd from "./company/kmbd.png"
 import binus from "./company/binus.png"
 import bgdc from "./company/bgdc.png"
+import hanyang from "./company/hanyang.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -94,5 +95,6 @@ export {
   port3d,
   panda,
   code,
-  horizons
+  horizons,
+  hanyang
 };
