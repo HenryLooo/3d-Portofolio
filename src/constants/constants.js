@@ -225,7 +225,7 @@ import {
       date: "2024 - 2024",
       points: [
         "Bina Nusantara's representative for the student exchange program, selected from 127 out of 254 participants",
-        "Bina Nusantara's only representative to Hanyang University Seoul Campus, selected from 1 of 18 participants",
+        "Bina Nusantara's only representative to Hanyang University Seoul Campus, selected from 1 out of 18 participants",
       ],
     },
   ];
