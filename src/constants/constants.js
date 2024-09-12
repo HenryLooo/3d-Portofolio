@@ -41,7 +41,9 @@ import {
     port3d,
     code,
     horizons,
-    hanyang
+    hanyang,
+    starpixel,
+    happy5
   } from "../assets";
   
   export const navLinks = [
@@ -152,7 +154,7 @@ import {
       title: "Head of Student Council at Damai Junior Highschool",
       company_name: "YBHK",
       icon: ybhk,
-      iconBg: "#383E56",
+      iconBg: "#FFFFFF",
       date: "2015 - 2016",
       points: [
         "Developed strong communication skills through regular interaction with students, teachers, and school administrators.",
@@ -165,7 +167,7 @@ import {
       title: "Rohani Buddha Activist",
       company_name: "SMAN 19",
       icon: sman,
-      iconBg: "#E6DEDD",
+      iconBg: "#FFFFFF",
       date: "2018 - 2019",
       points: [
         "Organized and participated in events that fostered spiritual growth and connection among community members.",
@@ -190,7 +192,7 @@ import {
       title: "Internal Relation Activist",
       company_name: "Keluarga Mahasiswa Buddhis Dhammavaddhana",
       icon: kmbd,
-      iconBg: "#E6DEDD",
+      iconBg: "#FFFFFF",
       date: "2021 - 2022",
       points: [
         "Successfully increased attendance and participation in internal gatherings through strategic planning and engaging promotional strategies..",
@@ -204,7 +206,7 @@ import {
       title: "Division Coordinator",
       company_name: "Keluarga Mahasiswa Buddhis Dhammavaddhana",
       icon: kmbd,
-      iconBg: "#E6DEDD",
+      iconBg: "#FFFFFF",
       date: "2022 - 2023",
       points: [
         "Coordinated Division 3 'Secretariat, Entrepreneurship, and Internal Relation' of Keluarga Mahasiswa Buddhis Dhammavaddhana at Kemanggisan",
@@ -221,11 +223,33 @@ import {
       title: "Student Exchange",
       company_name: "Hanyang University",
       icon: hanyang,
-      iconBg: "#E6DEDD",
+      iconBg: "#FFFFFF",
       date: "2024 - 2024",
       points: [
         "Bina Nusantara's representative for the student exchange program, selected from 127 out of 254 participants",
         "Bina Nusantara's only representative to Hanyang University Seoul Campus, selected from 1 out of 18 participants",
+      ],
+    },
+    {
+      title: "Front End Engineer Internship",
+      company_name: "Happy5",
+      icon: happy5,
+      iconBg: "#FFFFFF",
+      date: "2024 - Now",
+      points: [
+        "Contributed to the development of Performance WebApp as a front-end engineer using React and JavaScript",
+        "Gained hands-on experience with React and JavaScript in a collaborative team environment.",
+      ],
+    },
+    {
+      title: "Unreal Engine 5 Game Developer Internship",
+      company_name: "Starpixel Studio",
+      icon: starpixel,
+      iconBg: "#FFFFFF",
+      date: "2024 - Now",
+      points: [
+        "Developed a dungeon crawler, deck building game using Unreal Engine 5, contributing on every aspect of the game as project manager, and game programmer.",
+        "Acquired in-depth knowledge of Unreal Engine 5's features and workflows, including blueprint scripting, materials, animation, and much more.",
       ],
     },
   ];
