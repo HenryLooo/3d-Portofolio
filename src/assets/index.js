@@ -51,6 +51,7 @@ import panda from "./panda.png";
 import port3d from "./port3d.png";
 import enrichment from "./enrichment.jpg";
 import horizons from "./horizons.png";
+import ascension from "./ascension.png"
 
 export {
   logo,
@@ -100,5 +101,6 @@ export {
   horizons,
   hanyang,
   starpixel,
-  happy5
+  happy5,
+  ascension
 };

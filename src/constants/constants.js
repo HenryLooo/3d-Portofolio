@@ -4,24 +4,11 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
-    nodejs,
-    mongodb,
-    git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     instagram,
     linkedin,
@@ -39,11 +26,11 @@ import {
     enrichment,
     panda,
     port3d,
-    code,
+    ascension,
     horizons,
     hanyang,
     starpixel,
-    happy5
+    happy5,
   } from "../assets";
   
   export const navLinks = [
@@ -231,6 +218,17 @@ import {
       ],
     },
     {
+      title: "Unreal Engine 5 Game Developer Internship",
+      company_name: "Starpixel Studio",
+      icon: starpixel,
+      iconBg: "#FFFFFF",
+      date: "2024 - 2025",
+      points: [
+        "Developed a dungeon crawler, deck building game using Unreal Engine 5, contributing on every aspect of the game as project manager, and game programmer.",
+        "Acquired in-depth knowledge of Unreal Engine 5's features and workflows, including blueprint scripting, materials, animation, and much more.",
+      ],
+    },
+    {
       title: "Front End Engineer Internship",
       company_name: "Happy5",
       icon: happy5,
@@ -239,17 +237,6 @@ import {
       points: [
         "Contributed to the development of Performance WebApp as a front-end engineer using React and JavaScript",
         "Gained hands-on experience with React and JavaScript in a collaborative team environment.",
-      ],
-    },
-    {
-      title: "Unreal Engine 5 Game Developer Internship",
-      company_name: "Starpixel Studio",
-      icon: starpixel,
-      iconBg: "#FFFFFF",
-      date: "2024 - Now",
-      points: [
-        "Developed a dungeon crawler, deck building game using Unreal Engine 5, contributing on every aspect of the game as project manager, and game programmer.",
-        "Acquired in-depth knowledge of Unreal Engine 5's features and workflows, including blueprint scripting, materials, animation, and much more.",
       ],
     },
   ];
@@ -369,6 +356,23 @@ import {
       ],
       image: port3d,
       source_code_link: "https://henryloo.vercel.app/",
+    },
+    {
+      name: "Ascension",
+      description:
+        "A Unreal Engine 5 Project, developed during my internship with Starpixel. Unfortunately the game itself is owned by said company, but the Game Design Document, linked in this card is owned by me, please check it out!",
+      tags: [
+        {
+          name: "Unreal Engine",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "GitLab",
+          color: "green-text-gradient",
+        },
+      ],
+      image: ascension,
+      source_code_link: "https://game-design-programming-1.gitbook.io/ascension",
     }
   ];
   
