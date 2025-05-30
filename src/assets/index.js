@@ -52,6 +52,7 @@ import port3d from "./port3d.png";
 import enrichment from "./enrichment.jpg";
 import horizons from "./horizons.png";
 import ascension from "./ascension.png"
+import jaywalky from "./jaywalky.png"
 
 export {
   logo,
@@ -102,5 +103,6 @@ export {
   hanyang,
   starpixel,
   happy5,
-  ascension
+  ascension,
+  jaywalky
 };

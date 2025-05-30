@@ -31,6 +31,7 @@ import {
   hanyang,
   starpixel,
   happy5,
+  jaywalky,
 } from "../assets";
 
 export const navLinks = [
@@ -351,7 +352,7 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "3js",
+        name: "3JS/R3F",
         color: "blue-text-gradient",
       },
     ],
@@ -374,6 +375,35 @@ const projects = [
     ],
     image: ascension,
     source_code_link: "https://game-design-programming-1.gitbook.io/ascension",
+  },
+  {
+    name: "Jaywalky Streety",
+    description:
+      "A crossy road clone, made for website and can be played in desktop and mobile! Using supabase as the backend system, and to support a global leaderboard feature. First ever 'fullstack' project",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "3JS/R3F",
+        color: "blue-text-gradient",
+      },
+    ],
+    image:  jaywalky,
+    source_code_link: "https://jaywalky-streety.vercel.app",
   },
 ];
 
