@@ -213,7 +213,7 @@ const experiences = [
     company_name: "Hanyang University",
     icon: hanyang,
     iconBg: "#FFFFFF",
-    date: "2024 - 2024",
+    date: "Mar 2024 - June 2024",
     points: [
       "Bina Nusantara's representative for the student exchange program, selected from 127 out of 254 participants",
       "Bina Nusantara's only representative to Hanyang University Seoul Campus, selected from 1 out of 18 participants",
@@ -224,7 +224,7 @@ const experiences = [
     company_name: "Starpixel Studio",
     icon: starpixel,
     iconBg: "#FFFFFF",
-    date: "2024 - 2025",
+    date: "Sep 2024 - Jan 2025",
     points: [
       "Developed a dungeon crawler, deck building game using Unreal Engine 5, contributing on every aspect of the game as project manager, and game programmer.",
       "Acquired in-depth knowledge of Unreal Engine 5's features and workflows, including blueprint scripting, materials, animation, and much more.",
@@ -235,10 +235,10 @@ const experiences = [
     company_name: "Happy5",
     icon: happy5,
     iconBg: "#FFFFFF",
-    date: "2024 - Now",
+    date: "Sep 2024 - Sep 2025",
     points: [
-      "Contributed to the development of Performance WebApp as a front-end engineer using React and JavaScript",
-      "Gained hands-on experience with React and JavaScript in a collaborative team environment.",
+      "Contributed to the development of Performance WebApp as a front-end engineer using React, JavaScript, TypeScript, and Tailwind CSS.",
+      "Gained hands-on experience with a collaborative team environment of engineers.",
     ],
   },
 ];

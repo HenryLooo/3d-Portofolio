@@ -54,7 +54,7 @@ const Navbar = () => {
               onClick={
                 link.id == "cv"
                   ? () => {
-                      window.open("src/assets/Henry_Liu CV 2025.pdf", "_blank");
+                      window.open("../public/Henry_Liu_CV_2025.pdf", "_blank");
                     }
                   : () => setActive(link.title)
               }
