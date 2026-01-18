@@ -1,10 +1,32 @@
 import { Suspense, useEffect, useState, useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import * as THREE from "three";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./plane/scene.gltf");
+  const { scene, animations } = useGLTF("./plane/scene.gltf");
+  const mixerRef = useRef();
+
+  useEffect(() => {
+    if (animations && animations.length > 0) {
+      mixerRef.current = new THREE.AnimationMixer(scene);
+      const action = mixerRef.current.clipAction(animations[0]);
+      action.play();
+    }
+
+    return () => {
+      if (mixerRef.current) {
+        mixerRef.current.stopAllAction();
+      }
+    };
+  }, [scene, animations]);
+
+  useFrame((state, delta) => {
+    if (mixerRef.current) {
+      mixerRef.current.update(delta);
+    }
+  });
 
   return (
     <mesh>
@@ -19,7 +41,7 @@ const Computers = ({ isMobile }) => {
         shadow-mapSize={1024}
       />
       <primitive
-        object={computer.scene}
+        object={scene}
         scale={isMobile ? 0.6 : 1}
         // position = {[0,-3.25,-1.5]}
         position={isMobile ? [0, -3, 0] : [0, -5, 0]}
@@ -50,7 +72,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      frameloop="demand"
+      frameloop="always"
       shadows
       camera={{ position: [20, 3, 5], fov: 35 }}
       gl={{ preserveDrawingBuffer: true }}
